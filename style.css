@@ -686,3 +686,48 @@ footer .copyright{
 }
 
 
+/*About page*/
+#page-header.about-header{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url("img/banner.png");
+    display: flex;
+    background-position: center;
+    width: 100%;
+    height: 30vh;
+    padding-top: 30px;
+    justify-content: center;
+   
+
+}
+
+#about-head{
+    display: flex;
+    align-items: top;
+}
+
+#about-head img{
+    width:50%;
+    height:40%;
+}
+#about-head div{
+    padding-left: 40px;
+}
+
+#about-head h2{
+    color: black;
+}
+
+#about-app{
+    text-align: center;
+    
+}
+
+#about-app h2{
+    color: black;
+}
+ 
+#about-head p{
+    color:rgb(46, 20, 20)
+}
+
+
+
