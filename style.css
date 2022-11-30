@@ -75,7 +75,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background-color: darkslategrey;
+    background : linear-gradient(55deg, rgb(3, 5, 5),rgb(17, 16, 16),rgb(17, 16, 16),rgb(17, 16, 16),rgb(3, 5, 5));
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     z-index: 999;
     position: sticky;
@@ -174,9 +174,22 @@ body {
 #BrandsSection .brand-images{
     display: flex;
     justify-content: space-between;
+   
+    
 }
 
 
+#product-1 {
+    background: linear-gradient( rgb(22, 22, 22), rgb(3, 5, 5));
+    
+}
+.pro{
+    background: linear-gradient(rgb(22, 22, 22), rgb(3, 5, 5),)
+}
+
+.pro h3{
+    color: white;
+}
 
 /*#menSection{
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
@@ -252,7 +265,8 @@ body {
     background-image: url('');
     background-repeat: no-repeat;
     background-position: 20% 30%;
-    background-color: darkslategrey;
+    background: linear-gradient(rgb(3, 5, 5),rgb(22, 22, 22));
+    
 }
 
 #newsletter h4{
@@ -301,6 +315,7 @@ footer{
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 30px;
+     
 }
 
 footer .col{
@@ -367,7 +382,7 @@ footer .copyright{
 
 #product-1{
     text-align: center;   
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 #product-1 .pro-container{
@@ -405,13 +420,13 @@ footer .copyright{
 }
 
 #product-1 .pro .des span{
-    color:dimgray;
-    font-size: 12px;
+    color:rgb(153, 153, 153);
+    font-size: 15px;
 }
 
 #product-1 .pro .des h5{
     padding-top: 7px;
-    color:black;
+    color: rgba(105, 105, 105, 0.725);
     font-size: 14px;
 }
 
@@ -510,11 +525,14 @@ footer .copyright{
 #pagenation{
     text-align: center;
     margin-bottom: 40px;
+    background: linear-gradient(90deg,rgb(9, 9, 9),rgb(3, 5, 5),rgb(3, 5, 5),rgb(3, 5, 5),rgb(9, 9, 9));
+   
 }
 
 #pagenation a{
     text-decoration: none;
     background-color: #088178;
+    
     padding: 15px 20px;
     border-radius: 4px;
     color: white;
@@ -525,13 +543,23 @@ footer .copyright{
     font-size: 16px;
     font-weight: 600;
 }
+.section-p1{
+    background:rgb(234, 234, 234) ;
+}
 
-
+ 
 /* Single page */
 #prodetails{
     display: flex;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+  
+    background: linear-gradient(180deg, rgb(3, 5, 5),rgb(22, 22, 22),rgba(22, 22, 22, 0.957));
+   
 }
+#prodetails .pro{
+    color: rgba(248, 248, 248, 0.915);
+}
+
 
 #prodetails .single-pro-image{
     width: 30%;
@@ -551,13 +579,19 @@ footer .copyright{
 #prodetails .single-pro-details{
     width: 50%;
     padding-top: 30px;
+    color: rgba(248, 248, 248, 0.915);
 }
+
 
 #prodetails .single-pro-details h4{
     padding: 40px 0 20px 0;
-    color: black;
+    color: rgba(248, 248, 248, 0.915);
 }
 
+#product-1 h3{
+    color: rgba(248, 248, 248, 0.915);
+}
+ 
 #prodetails .single-pro-details h2{
     font-size: 26px;
     color: #088178;
@@ -579,6 +613,7 @@ footer .copyright{
 
 #prodetails .single-pro-details input:focus{
     outline: none;
+    
 }
 
 #prodetails .single-pro-details button{
@@ -588,6 +623,7 @@ footer .copyright{
 
 #prodetails .single-pro-details span{
     line-height: 25px;
+    color: rgba(248, 248, 248, 0.915);
 }
 
 /* contact page */
@@ -609,19 +645,90 @@ footer .copyright{
     background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
 }
 */
+
+
+/*About page*/
+#page-header.about-header{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url("img/banner.png");
+    display: flex;
+    background-position: center;
+    width: 100%;
+    height: 30vh;
+    padding-top: 60px;
+    justify-content: center;
+   
+
+}
+
+#about-head{
+    display: flex;
+    align-items: top;
+    background:linear-gradient(55deg, rgb(3, 5, 5),rgb(17, 16, 16),rgb(17, 16, 16),rgb(17, 16, 16),rgb(3, 5, 5));
+
+}
+ 
+ 
+#about-head img{
+    width:50%;
+    height:40%;
+}
+#about-head div{
+    padding-left: 40px;
+}
+
+#about-head h2{
+    color: rgba(248, 248, 248, 0.844);
+}
+
+#about-app{
+    text-align: center;
+    background: linear-gradient(90deg,rgb(9, 9, 9),rgb(3, 5, 5),rgb(3, 5, 5),rgb(3, 5, 5),rgb(9, 9, 9));
+    
+    
+}
+#about-app a{
+    color: #088178;
+}
+
+#about-app h2{
+    color: rgba(248, 248, 248, 0.915);
+}
+ 
+#about-head p{
+    color:rgba(248, 248, 248, 0.915);
+}
+
+ 
+
+ 
+
+
+
+
+
+/* contact */
+
 #contact-details{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background:linear-gradient(55deg, rgb(3, 5, 5),rgb(17, 16, 16),rgb(17, 16, 16),rgb(17, 16, 16),rgb(3, 5, 5));
+    color: rgba(248, 248, 248, 0.915);
 }
-
+#contact-details h2{
+    color:rgba(248, 248, 248, 0.915);
+}
 #contact-details .details{
     width: 40%;
+    
 }
 
 #contact-details .details.span,
 #form-details form span {
     font-size: 20px;
+    color:rgba(248, 248, 248, 0.915);
+    
+     
 }
 
 #contact-details .details h2,
@@ -629,13 +736,16 @@ footer .copyright{
     font-size: 26px;
     line-height: 35px;
     padding: 20px 0;
-    color: black;
+    color: rgba(248, 248, 248, 0.915);
 }
 
 #contact-details  .details h3{
     font-size: 16px;
      padding-bottom: 15px;
-}
+     color:rgba(248, 248, 248, 0.915);
+    
+    }
+
 #contact-details  .details li{
     list-style: none;
     display: flex;
@@ -662,10 +772,13 @@ footer .copyright{
 #form-details{
     display: flex;
     justify-content: center;
-    margin: 30px;
+
+    /* margin: 30px; */
     padding: 80px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid  ;
+    background: linear-gradient(rgb(17, 16, 16),rgb(3, 5, 5),rgb(17, 16, 16));
 }
+
 #form-details form{
     width: 65%;
     display: flex;
@@ -686,48 +799,140 @@ footer .copyright{
 }
 
 
-/*About page*/
-#page-header.about-header{
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url("img/banner.png");
-    display: flex;
-    background-position: center;
+/* cart */
+
+#cart{
+    overflow-x: auto;
+    background:linear-gradient(55deg, rgb(3, 5, 5),rgb(17, 16, 16),rgb(17, 16, 16),rgb(17, 16, 16),rgb(3, 5, 5));
+}
+
+
+
+
+#cart table{
     width: 100%;
-    height: 30vh;
-    padding-top: 30px;
-    justify-content: center;
-   
-
-}
-
-#about-head{
-    display: flex;
-    align-items: top;
-}
-
-#about-head img{
-    width:50%;
-    height:40%;
-}
-#about-head div{
-    padding-left: 40px;
-}
-
-#about-head h2{
-    color: black;
-}
-
-#about-app{
-    text-align: center;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
     
 }
 
-#about-app h2{
-    color: black;
+#cart table img{
+    width: 70px;
+    padding: 10px;
+
+
 }
  
-#about-head p{
-    color:rgb(46, 20, 20)
+
+#cart table td:nth-child(1){
+    width: 100px;
+    text-align: center;
+    color: rgba(248, 248, 248, 0.915);
+}
+#cart table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+    color: rgba(248, 248, 248, 0.915);
+}
+#cart table td:nth-child(3){
+    width: 250px;
+    text-align: left;
+    color: rgba(248, 248, 248, 0.915);
+}  
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6)
+{
+    width: 150px;
+    text-align: left;
+    color: rgba(248, 248, 248, 0.915);
+}  
+   
+#cart table td:nth-child(5) input{
+    width: 70px;
+    padding: 10px 5px 10px 15px;
 }
 
+#cart table thead{
+    border: 1px solid  black;
+    border-left: none;
+    border-right: none;
+
+}
+
+#cart table thead td{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+#cart table tbody  tr td
+{
+    padding-top: 15px;
+} 
+#cart table tbody td{
+font-size: 13px;
+}
+
+#cart-add {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    background: linear-gradient(60deg,rgb(17, 16, 16),rgb(3, 5, 5),rgb(17, 16, 16));
+}
+#coupon{
+    width: 50%;
+    margin-bottom: 30px;
+     background-color: rgb(9, 9, 9);
+    
+}
+ 
+#coupon h3,
+#subtotal h3{
+    padding-bottom: 15px;
+    color: rgba(248, 248, 248, 0.915)
+
+}
+#coupon input{
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px ;
+    border: 1px solid #e2e9e1;
+
+}
+
+#coupon button,
+
+#subtotal button{
+    background-color: #088178;
+    color: white;
+    padding: 12px 20px;
+}
+
+#subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px  solid   ; 
+    padding: 30px;
+    background-color: rgb(9, 9, 9);
 
 
+}
+
+#subtotal table{
+    border-collapse: collapse ;
+    width:100%;
+    margin-bottom: 20px;
+    color: rgba(248, 248, 248, 0.915);
+
+}
+
+#subtotal table td {
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 13px;
+}
